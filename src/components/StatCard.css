@@ -1,0 +1,31 @@
+.stat-card {
+  text-align: center;
+  padding: var(--space-lg);
+}
+
+.stat-card__value {
+  font-size: var(--font-size-4xl);
+  font-weight: 900;
+  color: var(--color-primary);
+  line-height: 1;
+  margin-bottom: var(--space-xs);
+}
+
+.stat-card__unit {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+}
+
+.stat-card__label {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-light);
+}
+
+@media (max-width: 768px) {
+  .stat-card__value {
+    font-size: var(--font-size-2xl);
+  }
+}
